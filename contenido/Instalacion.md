@@ -1,6 +1,8 @@
 # Instalacion de Android en Ubuntu 15.10
 
-* ##Instalando android
+------------------------
+
+* ## Instalando android
 
 **Primero checa que version de java tienes**
 ``` sh
@@ -32,7 +34,7 @@ En caso que no funcionara lo anterior utilizar el siguiente comando.
 
 -------------------------------------------
 
-* ##Maquinas virtuales
+* ## Maquinas virtuales
 
 Para poder crear las maquinas virtuales primero abriremos nuestro android studio y seguir lo siguiente
 
@@ -58,7 +60,7 @@ En **Extras** se recomienda lo siguiente
 
 ----------------------------------------------------------
 
-* ##Error
+* ## Error
 
 Mas adelante se agregaran las explicaciones de que hace cada tool o extra.
 
