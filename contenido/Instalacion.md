@@ -6,9 +6,9 @@
 
 **Primero checa que version de java tienes**
 ``` sh
-java -version
+$ java -version
 
-javac -version
+$ javac -version
 
 
 ```
@@ -23,14 +23,14 @@ Se trata, pues, de hacer más sencilla la instalación de este tipo de aplicacio
 
 
 ```sh
-sudo apt-get install ubuntu-developer-tools-center
+$ sudo apt-get install ubuntu-developer-tools-center
 
 ```
 
-Ahora solo queda instalar Android Studio y Android SDK: usaremos el Ubuntu Developer Tools Center. ``` udtc android ```
+Ahora solo queda instalar Android Studio y Android SDK: usaremos el Ubuntu Developer Tools Center. ``` $ udtc android ```
 
 En caso que no funcionara lo anterior utilizar el siguiente comando. 
-``` umake android --accept-license ```
+``` $ umake android --accept-license ```
 
 -------------------------------------------
 
@@ -71,15 +71,18 @@ Puede que te falten las librerias para los archivos de 32 bits
 
 En lo siguiente se considera que la carpeta Android de la instalacion esta en HOME, si no esta en HOME cambiar la direccion por la que tienes.
 
-apt-get install lib64stdc++6
-cd ~/Android/Sdk/tools/lib64/libstdc++
-mv libstdc++.so.6 libstdc++.so.6.bak
-ln -s /usr/lib64/libstdc++.so.6 ~/Android/Sdk/tools/lib64/libstdc++
-
+``` sh
+$ apt-get install lib64stdc++6
+$ cd ~/Android/Sdk/tools/lib64/libstdc++
+$ mv libstdc++.so.6 libstdc++.so.6.bak
+$ ln -s /usr/lib64/libstdc++.so.6 ~/Android/Sdk/tools/lib64/libstdc++
+```
 
 
 **Si te muestra el siguiente error: ```sh: 1: glxinfo: not found```**
 
 instalar la siguiente biblioteca grafica
 
-sudo apt-get install mesa-utils
+```sh
+$ sudo apt-get install mesa-utils
+```
