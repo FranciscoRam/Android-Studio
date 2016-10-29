@@ -1,6 +1,6 @@
 # Instalacion de Android en Ubuntu 15.10
 
-* **Instalando android**
+* ##Instalando android
 
 **Primero checa que version de java tienes**
 ``` sh
@@ -27,11 +27,12 @@ sudo apt-get install ubuntu-developer-tools-center
 
 Ahora solo queda instalar Android Studio y Android SDK: usaremos el Ubuntu Developer Tools Center. ``` udtc android ```
 
-En caso de no poder hacer lo anteior con el siguiente comando. 
+En caso que no funcionara lo anterior utilizar el siguiente comando. 
 ``` umake android --accept-license ```
 
+-------------------------------------------
 
-* **Maquinas virtuales**
+* ##Maquinas virtuales
 
 Para poder crear las maquinas virtuales primero abriremos nuestro android studio y seguir lo siguiente
 
@@ -54,6 +55,10 @@ En **Extras** se recomienda lo siguiente
 * Android Auto API Simulators
 
 **Nota**
+
+----------------------------------------------------------
+
+* ##Error
 
 Mas adelante se agregaran las explicaciones de que hace cada tool o extra.
 
